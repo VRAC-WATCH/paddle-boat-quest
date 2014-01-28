@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD2C31AF1896FFBE0078F2DB /* Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31AA1896FFBE0078F2DB /* Settings.cpp */; };
+		AD2C31B01896FFBE0078F2DB /* Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31AA1896FFBE0078F2DB /* Settings.cpp */; };
+		AD2C31B11896FFBE0078F2DB /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31AC1896FFBE0078F2DB /* Util.cpp */; };
+		AD2C31B21896FFBE0078F2DB /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31AC1896FFBE0078F2DB /* Util.cpp */; };
+		AD2C31BC1896FFCD0078F2DB /* KenXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31B41896FFCD0078F2DB /* KenXML.cpp */; };
+		AD2C31BD1896FFCD0078F2DB /* KenXML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31B41896FFCD0078F2DB /* KenXML.cpp */; };
+		AD2C31BE1896FFCD0078F2DB /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31B61896FFCD0078F2DB /* tinystr.cpp */; };
+		AD2C31BF1896FFCD0078F2DB /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31B61896FFCD0078F2DB /* tinystr.cpp */; };
+		AD2C31C01896FFCD0078F2DB /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31B81896FFCD0078F2DB /* tinyxml.cpp */; };
+		AD2C31C11896FFCD0078F2DB /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31B81896FFCD0078F2DB /* tinyxml.cpp */; };
+		AD2C31C21896FFCD0078F2DB /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31BA1896FFCD0078F2DB /* tinyxmlerror.cpp */; };
+		AD2C31C31896FFCD0078F2DB /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31BA1896FFCD0078F2DB /* tinyxmlerror.cpp */; };
+		AD2C31C41896FFCD0078F2DB /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31BB1896FFCD0078F2DB /* tinyxmlparser.cpp */; };
+		AD2C31C51896FFCD0078F2DB /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2C31BB1896FFCD0078F2DB /* tinyxmlparser.cpp */; };
+		AD2FC72A1897126E0080843F /* RacePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC7281897126E0080843F /* RacePath.cpp */; };
+		AD2FC72B1897126E0080843F /* RacePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC7281897126E0080843F /* RacePath.cpp */; };
+		AD2FC72E189715BF0080843F /* Boat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC72C189715BF0080843F /* Boat.cpp */; };
+		AD2FC72F189715BF0080843F /* Boat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC72C189715BF0080843F /* Boat.cpp */; };
+		AD2FC7321897160D0080843F /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC7301897160D0080843F /* GameObject.cpp */; };
+		AD2FC7331897160D0080843F /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC7301897160D0080843F /* GameObject.cpp */; };
+		AD5EF78010376B780054D753 /* osgGA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77B10376B780054D753 /* osgGA.framework */; };
+		AD5EF78110376B780054D753 /* osg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77C10376B780054D753 /* osg.framework */; };
+		AD5EF78210376B780054D753 /* osgDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77D10376B780054D753 /* osgDB.framework */; };
+		AD5EF78310376B780054D753 /* osgUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77E10376B780054D753 /* osgUtil.framework */; };
+		AD5EF78410376B780054D753 /* osgViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77F10376B780054D753 /* osgViewer.framework */; };
+		AD5EF79510376DB80054D753 /* PaddleApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5EF79410376DB80054D753 /* PaddleApp.cpp */; };
+		AD86E8B3103A6A3C00EBDE6F /* libjccl-1_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8A9103A6A3C00EBDE6F /* libjccl-1_2.dylib */; };
+		AD86E8B4103A6A3C00EBDE6F /* libjccl-1_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8AA103A6A3C00EBDE6F /* libjccl-1_2.a */; };
+		AD86E8B5103A6A3C00EBDE6F /* libvrj-2_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8AB103A6A3C00EBDE6F /* libvrj-2_2.dylib */; };
+		AD86E8B6103A6A3C00EBDE6F /* libvrj-2_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8AC103A6A3C00EBDE6F /* libvrj-2_2.a */; };
+		AD86E8B7103A6A3C00EBDE6F /* libvpr-2_0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8AD103A6A3C00EBDE6F /* libvpr-2_0.dylib */; };
+		AD86E8B8103A6A3C00EBDE6F /* libvpr-2_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8AE103A6A3C00EBDE6F /* libvpr-2_0.a */; };
+		AD86E8B9103A6A3C00EBDE6F /* libgadget-1_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8AF103A6A3C00EBDE6F /* libgadget-1_2.dylib */; };
+		AD86E8BA103A6A3C00EBDE6F /* libgadget-1_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8B0103A6A3C00EBDE6F /* libgadget-1_2.a */; };
+		AD86E8BB103A6A3C00EBDE6F /* libvrj_ogl-2_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8B1103A6A3C00EBDE6F /* libvrj_ogl-2_2.dylib */; };
+		AD86E8BC103A6A3C00EBDE6F /* libvrj_ogl-2_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD86E8B2103A6A3C00EBDE6F /* libvrj_ogl-2_2.a */; };
+		AD86E8C9103A6A5E00EBDE6F /* JugglerInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD86E868103A64FD00EBDE6F /* JugglerInterface.cpp */; };
+		AD86E8CA103A6A5F00EBDE6F /* mainJuggler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD86E867103A64FD00EBDE6F /* mainJuggler.cpp */; };
+		AD86E8D0103A6A9300EBDE6F /* PaddleApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5EF79410376DB80054D753 /* PaddleApp.cpp */; };
+		AD86E8F3103A6AA400EBDE6F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC9D4C10B92B06C0032A453 /* OpenGL.framework */; };
+		AD86E952103A6AAB00EBDE6F /* osgGA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77B10376B780054D753 /* osgGA.framework */; };
+		AD86E953103A6AAB00EBDE6F /* osg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77C10376B780054D753 /* osg.framework */; };
+		AD86E954103A6AAB00EBDE6F /* osgDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77D10376B780054D753 /* osgDB.framework */; };
+		AD86E955103A6AAB00EBDE6F /* osgUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77E10376B780054D753 /* osgUtil.framework */; };
+		AD86E956103A6AAB00EBDE6F /* osgViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77F10376B780054D753 /* osgViewer.framework */; };
+		ADC9D4AB0B92B02B0032A453 /* mainGLUT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADC9D4AA0B92B02B0032A453 /* mainGLUT.cpp */; };
+		ADC9D4AD0B92B05E0032A453 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC9D4AC0B92B05E0032A453 /* GLUT.framework */; };
+		ADC9D4C20B92B06C0032A453 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC9D4C10B92B06C0032A453 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* Paddleboat Quest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Paddleboat Quest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2C31AA1896FFBE0078F2DB /* Settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Settings.cpp; sourceTree = "<group>"; };
+		AD2C31AB1896FFBE0078F2DB /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		AD2C31AC1896FFBE0078F2DB /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
+		AD2C31AD1896FFBE0078F2DB /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		AD2C31B41896FFCD0078F2DB /* KenXML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KenXML.cpp; sourceTree = "<group>"; };
+		AD2C31B51896FFCD0078F2DB /* KenXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenXML.h; sourceTree = "<group>"; };
+		AD2C31B61896FFCD0078F2DB /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		AD2C31B71896FFCD0078F2DB /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		AD2C31B81896FFCD0078F2DB /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		AD2C31B91896FFCD0078F2DB /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		AD2C31BA1896FFCD0078F2DB /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		AD2C31BB1896FFCD0078F2DB /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		AD2C31C6189700430078F2DB /* quickprof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quickprof.h; sourceTree = "<group>"; };
+		AD2FC7281897126E0080843F /* RacePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RacePath.cpp; sourceTree = "<group>"; };
+		AD2FC7291897126E0080843F /* RacePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RacePath.h; sourceTree = "<group>"; };
+		AD2FC72C189715BF0080843F /* Boat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Boat.cpp; sourceTree = "<group>"; };
+		AD2FC72D189715BF0080843F /* Boat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boat.h; sourceTree = "<group>"; };
+		AD2FC7301897160D0080843F /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		AD2FC7311897160D0080843F /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		AD5EF77B10376B780054D753 /* osgGA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgGA.framework; path = /Library/Frameworks/osgGA.framework; sourceTree = "<absolute>"; };
+		AD5EF77C10376B780054D753 /* osg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osg.framework; path = /Library/Frameworks/osg.framework; sourceTree = "<absolute>"; };
+		AD5EF77D10376B780054D753 /* osgDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgDB.framework; path = /Library/Frameworks/osgDB.framework; sourceTree = "<absolute>"; };
+		AD5EF77E10376B780054D753 /* osgUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgUtil.framework; path = /Library/Frameworks/osgUtil.framework; sourceTree = "<absolute>"; };
+		AD5EF77F10376B780054D753 /* osgViewer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgViewer.framework; path = /Library/Frameworks/osgViewer.framework; sourceTree = "<absolute>"; };
+		AD5EF79310376DB80054D753 /* PaddleApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddleApp.h; sourceTree = "<group>"; };
+		AD5EF79410376DB80054D753 /* PaddleApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PaddleApp.cpp; sourceTree = "<group>"; };
+		AD5EFA13103A13F70054D753 /* CameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
+		AD86E867103A64FD00EBDE6F /* mainJuggler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainJuggler.cpp; sourceTree = "<group>"; };
+		AD86E868103A64FD00EBDE6F /* JugglerInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JugglerInterface.cpp; sourceTree = "<group>"; };
+		AD86E869103A64FD00EBDE6F /* JugglerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JugglerInterface.h; sourceTree = "<group>"; };
+		AD86E894103A6A0A00EBDE6F /* JugglerBuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JugglerBuild; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD86E8A9103A6A3C00EBDE6F /* libjccl-1_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libjccl-1_2.dylib"; path = "/usr/local/lib/libjccl-1_2.dylib"; sourceTree = "<absolute>"; };
+		AD86E8AA103A6A3C00EBDE6F /* libjccl-1_2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libjccl-1_2.a"; path = "/usr/local/lib/libjccl-1_2.a"; sourceTree = "<absolute>"; };
+		AD86E8AB103A6A3C00EBDE6F /* libvrj-2_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libvrj-2_2.dylib"; path = "/usr/local/lib/libvrj-2_2.dylib"; sourceTree = "<absolute>"; };
+		AD86E8AC103A6A3C00EBDE6F /* libvrj-2_2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libvrj-2_2.a"; path = "/usr/local/lib/libvrj-2_2.a"; sourceTree = "<absolute>"; };
+		AD86E8AD103A6A3C00EBDE6F /* libvpr-2_0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libvpr-2_0.dylib"; path = "/usr/local/lib/libvpr-2_0.dylib"; sourceTree = "<absolute>"; };
+		AD86E8AE103A6A3C00EBDE6F /* libvpr-2_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libvpr-2_0.a"; path = "/usr/local/lib/libvpr-2_0.a"; sourceTree = "<absolute>"; };
+		AD86E8AF103A6A3C00EBDE6F /* libgadget-1_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgadget-1_2.dylib"; path = "/usr/local/lib/libgadget-1_2.dylib"; sourceTree = "<absolute>"; };
+		AD86E8B0103A6A3C00EBDE6F /* libgadget-1_2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgadget-1_2.a"; path = "/usr/local/lib/libgadget-1_2.a"; sourceTree = "<absolute>"; };
+		AD86E8B1103A6A3C00EBDE6F /* libvrj_ogl-2_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libvrj_ogl-2_2.dylib"; path = "/usr/local/lib/libvrj_ogl-2_2.dylib"; sourceTree = "<absolute>"; };
+		AD86E8B2103A6A3C00EBDE6F /* libvrj_ogl-2_2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libvrj_ogl-2_2.a"; path = "/usr/local/lib/libvrj_ogl-2_2.a"; sourceTree = "<absolute>"; };
+		AD86EAA7103B3B6900EBDE6F /* Makefile.glut */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.glut; sourceTree = "<group>"; };
+		AD86EAA8103B3B6900EBDE6F /* Makefile.vrj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.vrj; sourceTree = "<group>"; };
+		ADC9D4AA0B92B02B0032A453 /* mainGLUT.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = mainGLUT.cpp; sourceTree = "<group>"; };
+		ADC9D4AC0B92B05E0032A453 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		ADC9D4C10B92B06C0032A453 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC9D4AD0B92B05E0032A453 /* GLUT.framework in Frameworks */,
+				ADC9D4C20B92B06C0032A453 /* OpenGL.framework in Frameworks */,
+				AD5EF78010376B780054D753 /* osgGA.framework in Frameworks */,
+				AD5EF78110376B780054D753 /* osg.framework in Frameworks */,
+				AD5EF78210376B780054D753 /* osgDB.framework in Frameworks */,
+				AD5EF78310376B780054D753 /* osgUtil.framework in Frameworks */,
+				AD5EF78410376B780054D753 /* osgViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD86E892103A6A0A00EBDE6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD86E8B3103A6A3C00EBDE6F /* libjccl-1_2.dylib in Frameworks */,
+				AD86E8B4103A6A3C00EBDE6F /* libjccl-1_2.a in Frameworks */,
+				AD86E8B5103A6A3C00EBDE6F /* libvrj-2_2.dylib in Frameworks */,
+				AD86E8B6103A6A3C00EBDE6F /* libvrj-2_2.a in Frameworks */,
+				AD86E8B7103A6A3C00EBDE6F /* libvpr-2_0.dylib in Frameworks */,
+				AD86E8B8103A6A3C00EBDE6F /* libvpr-2_0.a in Frameworks */,
+				AD86E8B9103A6A3C00EBDE6F /* libgadget-1_2.dylib in Frameworks */,
+				AD86E8BA103A6A3C00EBDE6F /* libgadget-1_2.a in Frameworks */,
+				AD86E8BB103A6A3C00EBDE6F /* libvrj_ogl-2_2.dylib in Frameworks */,
+				AD86E8BC103A6A3C00EBDE6F /* libvrj_ogl-2_2.a in Frameworks */,
+				AD86E8F3103A6AA400EBDE6F /* OpenGL.framework in Frameworks */,
+				AD86E952103A6AAB00EBDE6F /* osgGA.framework in Frameworks */,
+				AD86E953103A6AAB00EBDE6F /* osg.framework in Frameworks */,
+				AD86E954103A6AAB00EBDE6F /* osgDB.framework in Frameworks */,
+				AD86E955103A6AAB00EBDE6F /* osgUtil.framework in Frameworks */,
+				AD86E956103A6AAB00EBDE6F /* osgViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* GLUT App */ = {
+			isa = PBXGroup;
+			children = (
+				AD86EAA7103B3B6900EBDE6F /* Makefile.glut */,
+				AD86EAA8103B3B6900EBDE6F /* Makefile.vrj */,
+				AD86E8A8103A6A3C00EBDE6F /* Juggler Libs */,
+				AD5EF5B610376B5F0054D753 /* OSG Stuff */,
+				ADC9D4C10B92B06C0032A453 /* OpenGL.framework */,
+				ADC9D4AC0B92B05E0032A453 /* GLUT.framework */,
+				ADC9D4A90B92B02B0032A453 /* src */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = "GLUT App";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* Paddleboat Quest */,
+				AD86E894103A6A0A00EBDE6F /* JugglerBuild */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD2C31B31896FFCD0078F2DB /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				AD2C31B41896FFCD0078F2DB /* KenXML.cpp */,
+				AD2C31B51896FFCD0078F2DB /* KenXML.h */,
+				AD2C31B61896FFCD0078F2DB /* tinystr.cpp */,
+				AD2C31B71896FFCD0078F2DB /* tinystr.h */,
+				AD2C31B81896FFCD0078F2DB /* tinyxml.cpp */,
+				AD2C31B91896FFCD0078F2DB /* tinyxml.h */,
+				AD2C31BA1896FFCD0078F2DB /* tinyxmlerror.cpp */,
+				AD2C31BB1896FFCD0078F2DB /* tinyxmlparser.cpp */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		AD5EF5B610376B5F0054D753 /* OSG Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				AD5EF77B10376B780054D753 /* osgGA.framework */,
+				AD5EF77C10376B780054D753 /* osg.framework */,
+				AD5EF77D10376B780054D753 /* osgDB.framework */,
+				AD5EF77E10376B780054D753 /* osgUtil.framework */,
+				AD5EF77F10376B780054D753 /* osgViewer.framework */,
+			);
+			name = "OSG Stuff";
+			sourceTree = "<group>";
+		};
+		AD86E8A8103A6A3C00EBDE6F /* Juggler Libs */ = {
+			isa = PBXGroup;
+			children = (
+				AD86E8A9103A6A3C00EBDE6F /* libjccl-1_2.dylib */,
+				AD86E8AA103A6A3C00EBDE6F /* libjccl-1_2.a */,
+				AD86E8AB103A6A3C00EBDE6F /* libvrj-2_2.dylib */,
+				AD86E8AC103A6A3C00EBDE6F /* libvrj-2_2.a */,
+				AD86E8AD103A6A3C00EBDE6F /* libvpr-2_0.dylib */,
+				AD86E8AE103A6A3C00EBDE6F /* libvpr-2_0.a */,
+				AD86E8AF103A6A3C00EBDE6F /* libgadget-1_2.dylib */,
+				AD86E8B0103A6A3C00EBDE6F /* libgadget-1_2.a */,
+				AD86E8B1103A6A3C00EBDE6F /* libvrj_ogl-2_2.dylib */,
+				AD86E8B2103A6A3C00EBDE6F /* libvrj_ogl-2_2.a */,
+			);
+			name = "Juggler Libs";
+			sourceTree = "<group>";
+		};
+		ADC9D4A90B92B02B0032A453 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AD2C31C6189700430078F2DB /* quickprof.h */,
+				AD2C31B31896FFCD0078F2DB /* XML */,
+				AD2C31AA1896FFBE0078F2DB /* Settings.cpp */,
+				AD2C31AB1896FFBE0078F2DB /* Settings.h */,
+				AD2C31AC1896FFBE0078F2DB /* Util.cpp */,
+				AD2C31AD1896FFBE0078F2DB /* Util.h */,
+				AD86E867103A64FD00EBDE6F /* mainJuggler.cpp */,
+				AD86E868103A64FD00EBDE6F /* JugglerInterface.cpp */,
+				AD86E869103A64FD00EBDE6F /* JugglerInterface.h */,
+				AD5EFA13103A13F70054D753 /* CameraController.h */,
+				ADC9D4AA0B92B02B0032A453 /* mainGLUT.cpp */,
+				AD2FC7281897126E0080843F /* RacePath.cpp */,
+				AD2FC7291897126E0080843F /* RacePath.h */,
+				AD2FC72C189715BF0080843F /* Boat.cpp */,
+				AD2FC72D189715BF0080843F /* Boat.h */,
+				AD2FC7301897160D0080843F /* GameObject.cpp */,
+				AD2FC7311897160D0080843F /* GameObject.h */,
+				AD5EF79310376DB80054D753 /* PaddleApp.h */,
+				AD5EF79410376DB80054D753 /* PaddleApp.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* GLUT Build */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "GLUT Build" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLUT Build";
+			productInstallPath = "$(HOME)/bin";
+			productName = "GLUT App";
+			productReference = 8DD76F6C0486A84900D96B5E /* Paddleboat Quest */;
+			productType = "com.apple.product-type.tool";
+		};
+		AD86E893103A6A0A00EBDE6F /* JugglerBuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD86E898103A6A2900EBDE6F /* Build configuration list for PBXNativeTarget "JugglerBuild" */;
+			buildPhases = (
+				AD86E891103A6A0A00EBDE6F /* Sources */,
+				AD86E892103A6A0A00EBDE6F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JugglerBuild;
+			productName = JugglerBuild;
+			productReference = AD86E894103A6A0A00EBDE6F /* JugglerBuild */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "PaddleboatQuest" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* GLUT App */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* GLUT Build */,
+				AD86E893103A6A0A00EBDE6F /* JugglerBuild */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2C31C21896FFCD0078F2DB /* tinyxmlerror.cpp in Sources */,
+				AD2FC72A1897126E0080843F /* RacePath.cpp in Sources */,
+				AD2C31C41896FFCD0078F2DB /* tinyxmlparser.cpp in Sources */,
+				ADC9D4AB0B92B02B0032A453 /* mainGLUT.cpp in Sources */,
+				AD2C31BE1896FFCD0078F2DB /* tinystr.cpp in Sources */,
+				AD5EF79510376DB80054D753 /* PaddleApp.cpp in Sources */,
+				AD2FC72E189715BF0080843F /* Boat.cpp in Sources */,
+				AD2C31AF1896FFBE0078F2DB /* Settings.cpp in Sources */,
+				AD2FC7321897160D0080843F /* GameObject.cpp in Sources */,
+				AD2C31C01896FFCD0078F2DB /* tinyxml.cpp in Sources */,
+				AD2C31B11896FFBE0078F2DB /* Util.cpp in Sources */,
+				AD2C31BC1896FFCD0078F2DB /* KenXML.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD86E891103A6A0A00EBDE6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2C31BD1896FFCD0078F2DB /* KenXML.cpp in Sources */,
+				AD2C31C11896FFCD0078F2DB /* tinyxml.cpp in Sources */,
+				AD2FC7331897160D0080843F /* GameObject.cpp in Sources */,
+				AD86E8C9103A6A5E00EBDE6F /* JugglerInterface.cpp in Sources */,
+				AD2FC72F189715BF0080843F /* Boat.cpp in Sources */,
+				AD2C31C31896FFCD0078F2DB /* tinyxmlerror.cpp in Sources */,
+				AD86E8CA103A6A5F00EBDE6F /* mainJuggler.cpp in Sources */,
+				AD2C31B01896FFBE0078F2DB /* Settings.cpp in Sources */,
+				AD2C31BF1896FFCD0078F2DB /* tinystr.cpp in Sources */,
+				AD86E8D0103A6A9300EBDE6F /* PaddleApp.cpp in Sources */,
+				AD2C31C51896FFCD0078F2DB /* tinyxmlparser.cpp in Sources */,
+				AD2C31B21896FFBE0078F2DB /* Util.cpp in Sources */,
+				AD2FC72B1897126E0080843F /* RacePath.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = "Paddleboat Quest";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = "Paddleboat Quest";
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.8;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.8;
+			};
+			name = Release;
+		};
+		AD86E896103A6A0B00EBDE6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					..,
+					.,
+					../fmod/api,
+					/opt/local/include,
+					"/opt/local/include/gmtl-0.5.4",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = JugglerBuild;
+			};
+			name = Debug;
+		};
+		AD86E897103A6A0B00EBDE6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = JugglerBuild;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "GLUT Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "PaddleboatQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD86E898103A6A2900EBDE6F /* Build configuration list for PBXNativeTarget "JugglerBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD86E896103A6A0B00EBDE6F /* Debug */,
+				AD86E897103A6A0B00EBDE6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
