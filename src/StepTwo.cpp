@@ -8,6 +8,7 @@
 
 #include "StepTwo.h"
 #include <math.h>
+#include "Util.h"
 
 StepTwo::StepTwo()
 {
@@ -23,19 +24,33 @@ int StepTwo::getStateForPos(float pos)
 
 void StepTwo::setInputValue(int player, float value)
 {
-	if(player < 0 || player >= MAX_PLAYERS) return;		//guard against bad player numbers
+	if(player < 0 || player >= MAX_PLAYERS) //guard against bad player numbers
+	{
+		//report bad player numbers so we can quickly fix them
+		Util::logError("Input data sent for an invalid player (%i)", player);
+		return;
+	}
+
 	mPlayers[player].current.input = value;
 }
 
 const StepTwo::PlayerData& StepTwo::getPlayerData(int player)
 {
-	if(player < 0 || player >= MAX_PLAYERS) player = 0;		//guard against bad player numbers
+	if(player < 0 || player >= MAX_PLAYERS) //guard against bad player numbers
+	{
+		//if we're asked for an invalid player number, report it so we can fix it quickly.
+		Util::logError("Player data requested for an invalid player (%i)", player);
+		player = 0;
+	}
 	return mPlayers[player];
 	
 }
 
 void StepTwo::update(float dt)
 {
+	//__FUNCTION_HEADER__ is for built-in, low-overhead time profiling
+	//profile results are printed to the console when the app exits
+	__FUNCTION_HEADER__
 
 	//update position and speed of each player
 	for(int i = 0; i < mNumPlayers; i++)

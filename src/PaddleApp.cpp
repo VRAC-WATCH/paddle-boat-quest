@@ -68,6 +68,7 @@ void PaddleApp::init()
 
 void PaddleApp::buttonInput(unsigned int button, bool pressed)
 {
+	__FUNCTION_HEADER__
 	if(button < NUMBUTTONS)
 	{
 		mButtons[button] = pressed ? TOGGLE_ON : TOGGLE_OFF;
@@ -77,6 +78,9 @@ void PaddleApp::buttonInput(unsigned int button, bool pressed)
 
 void PaddleApp::update(float dt)
 {
+	//__FUNCTION_HEADER__ is for built-in, low-overhead time profiling
+	//profile results are printed to the console when the app exits
+
 	__FUNCTION_HEADER__
 
 	mTargetTime += dt;
