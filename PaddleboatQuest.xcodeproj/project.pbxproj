@@ -27,6 +27,8 @@
 		AD2FC72F189715BF0080843F /* Boat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC72C189715BF0080843F /* Boat.cpp */; };
 		AD2FC7321897160D0080843F /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC7301897160D0080843F /* GameObject.cpp */; };
 		AD2FC7331897160D0080843F /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC7301897160D0080843F /* GameObject.cpp */; };
+		AD2FC73618982DD30080843F /* StepTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC73418982DD30080843F /* StepTwo.cpp */; };
+		AD2FC73718982DD30080843F /* StepTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2FC73418982DD30080843F /* StepTwo.cpp */; };
 		AD5EF78010376B780054D753 /* osgGA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77B10376B780054D753 /* osgGA.framework */; };
 		AD5EF78110376B780054D753 /* osg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77C10376B780054D753 /* osg.framework */; };
 		AD5EF78210376B780054D753 /* osgDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5EF77D10376B780054D753 /* osgDB.framework */; };
@@ -90,6 +92,8 @@
 		AD2FC72D189715BF0080843F /* Boat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boat.h; sourceTree = "<group>"; };
 		AD2FC7301897160D0080843F /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
 		AD2FC7311897160D0080843F /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		AD2FC73418982DD30080843F /* StepTwo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StepTwo.cpp; sourceTree = "<group>"; };
+		AD2FC73518982DD30080843F /* StepTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepTwo.h; sourceTree = "<group>"; };
 		AD5EF77B10376B780054D753 /* osgGA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgGA.framework; path = /Library/Frameworks/osgGA.framework; sourceTree = "<absolute>"; };
 		AD5EF77C10376B780054D753 /* osg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osg.framework; path = /Library/Frameworks/osg.framework; sourceTree = "<absolute>"; };
 		AD5EF77D10376B780054D753 /* osgDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = osgDB.framework; path = /Library/Frameworks/osgDB.framework; sourceTree = "<absolute>"; };
@@ -250,6 +254,8 @@
 				AD2FC7311897160D0080843F /* GameObject.h */,
 				AD5EF79310376DB80054D753 /* PaddleApp.h */,
 				AD5EF79410376DB80054D753 /* PaddleApp.cpp */,
+				AD2FC73418982DD30080843F /* StepTwo.cpp */,
+				AD2FC73518982DD30080843F /* StepTwo.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -323,6 +329,7 @@
 				AD2C31C21896FFCD0078F2DB /* tinyxmlerror.cpp in Sources */,
 				AD2FC72A1897126E0080843F /* RacePath.cpp in Sources */,
 				AD2C31C41896FFCD0078F2DB /* tinyxmlparser.cpp in Sources */,
+				AD2FC73618982DD30080843F /* StepTwo.cpp in Sources */,
 				ADC9D4AB0B92B02B0032A453 /* mainGLUT.cpp in Sources */,
 				AD2C31BE1896FFCD0078F2DB /* tinystr.cpp in Sources */,
 				AD5EF79510376DB80054D753 /* PaddleApp.cpp in Sources */,
@@ -345,6 +352,7 @@
 				AD86E8C9103A6A5E00EBDE6F /* JugglerInterface.cpp in Sources */,
 				AD2FC72F189715BF0080843F /* Boat.cpp in Sources */,
 				AD2C31C31896FFCD0078F2DB /* tinyxmlerror.cpp in Sources */,
+				AD2FC73718982DD30080843F /* StepTwo.cpp in Sources */,
 				AD86E8CA103A6A5F00EBDE6F /* mainJuggler.cpp in Sources */,
 				AD2C31B01896FFBE0078F2DB /* Settings.cpp in Sources */,
 				AD2C31BF1896FFCD0078F2DB /* tinystr.cpp in Sources */,
